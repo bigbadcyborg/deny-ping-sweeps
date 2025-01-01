@@ -2,7 +2,7 @@
 disable ICMP echo requests to prevent ping sweeps on your ports.
 
 
-#Linux:<br>
+# Linux:<br>
 <br>Using sysctl:
 
             sudo nano /etc/sysctl.conf
@@ -15,7 +15,7 @@ Apply the changes:
 
             sudo sysctl -p
 
-#Windows Powershell:<br>
+# Windows Powershell:<br>
 
 
             New-NetFirewallRule -DisplayName "Block ICMPv4" -Protocol ICMPv4 -Action Block
