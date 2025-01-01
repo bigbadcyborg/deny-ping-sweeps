@@ -5,7 +5,7 @@ disable ICMP echo requests to prevent ping sweeps on your ports.
 #Linux:<br>
 <br>Using sysctl:
 
-            $sudo nano /etc/sysctl.conf
+            sudo nano /etc/sysctl.conf
 
 Add the following line then save:
 
